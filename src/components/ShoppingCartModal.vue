@@ -24,9 +24,9 @@ export default {
 
 <template>
   <div class="modal-mask">
-    <div class="modal-wrapper">
+    <div class="modal-wrapper" @click="$emit('showCart', false)">
       <div class="modal-dialog modal-lg modal-dialog-scrollable">
-        <div class="modal-content">
+        <div class="modal-content" @click.stop="propagation">
           <p class="modal-title mt-3 text-center header-p pb-2 mx-5">
             Shopping Cart
           </p>
