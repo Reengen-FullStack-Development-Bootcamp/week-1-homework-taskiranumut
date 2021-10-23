@@ -1,0 +1,32 @@
+/* Color Palette start */
+.colorss {
+  color: #495464;
+  color: #bbbfca;
+  color: #e8e8e8;
+  color: #f4f4f2;
+  color: #f05454;
+  color: #d3adac;
+  color: #be837f;
+  color: #44c0e7;
+  color: #29a4d3;
+  color: #1e98bc;
+}
+/* Color Palette finish */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #bbbfca;
+}
+
+.cnt-margin {
+  margin-top: 140px;
+  margin-bottom: 50px;
+}
